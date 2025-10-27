@@ -29,8 +29,8 @@ A modern, responsive image gallery application built with React, Vite, and Tailw
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/lunacal-assessment.git
-   cd lunacal-assessment/lunacal_assessment
+   git clone https://github.com/sudobyNM/LunaCal.git
+   cd lunacal
    ```
 
 2. Install dependencies:
