@@ -19,16 +19,16 @@ export default function Gallery() {
 
   return (
     <>
-      <section className="min-h-0 min-w-0  w-auto relative rounded-xl bg-[#363C43] shadow-[5.67px_5.67px_3.7px_0px_rgba(0,0,0,0.4)]  md:py-[11px] md:px-4 mx-[34px] ">
+      <section className="min-h-0 min-w-0  w-auto relative rounded-xl bg-[#363C43] shadow-[5.67px_5.67px_3.7px_0px_rgba(0,0,0,0.4)]  py-3 md:py-[10px] lg:py-[11px] px-4 mx-4 md:mx-8 lg:mx-[34px] ">
         <SideBar />
-        <div className="flex items-center justify-between px-4">
-          <div className="text-[#fff] font-poppins text-center font-medium text-[14px] rounded-[12px] bg-[#171717] py-[9px] px-[21px] shadow-[inset_0_4px_10px_2px_#00000040]">
+        <div className="flex items-center justify-between px-2 md:px-3 lg:px-4">
+          <div className="text-[#fff] font-poppins text-center font-medium text-[12px] md:text-[13px] lg:text-[14px] rounded-[12px] bg-[#171717] py-[9px] px-3 md:px-4 lg:px-[21px] shadow-[inset_0_4px_10px_2px_#00000040]">
             Gallery
           </div>
-          <div className="flex items-center gap-3 justify-center">
+          <div className="flex items-center gap-2 md:gap-2.5 lg:gap-3 justify-center">
             <button
               onClick={onAdd}
-              className="mr-[4px] px-2 py-[7px] bg-white/5 rounded-full font-plusJak text-[10px] text-[#fff] text-center font-[700] uppercase backdrop-blur-[10.56px] shadow-[inset_0_3.26px_3.26px_0_#ffffff26,inset_0_0_1px_0_#ffffff0d,5px_5px_5px_0_#00000066,-0.5px_-0.5px_6px_0_#ffffff40]"
+              className="mr-[4px] px-2 py-[7px] bg-white/5 rounded-full font-plusJak text-[9px] md:text-[9px] lg:text-[10px] text-[#fff] text-center font-[700] uppercase backdrop-blur-[10.56px] shadow-[inset_0_3.26px_3.26px_0_#ffffff26,inset_0_0_1px_0_#ffffff0d,5px_5px_5px_0_#00000066,-0.5px_-0.5px_6px_0_#ffffff40]"
             >
               + Add Image
             </button>

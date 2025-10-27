@@ -1,6 +1,6 @@
 export default function ImageCard({ src }) {
   return (
-    <div className="group relative rounded-2xl cursor-pointer aspect-[1.06/1]  w-31 aspect-[1.06/1] flex-shrink-0  min-w-0">
+    <div className="group relative rounded-2xl cursor-pointer w-28 md:w-30 lg:w-31 aspect-[1.06/1] flex-shrink-0 min-w-0">
   <img
     src={src}
     alt="Gallery"

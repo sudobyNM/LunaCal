@@ -5,15 +5,15 @@ export default function SideBar() {
             <img src="/Vector.svg" alt="help svg" />
         </div>
         <div>
-            <div class="grid grid-cols-2 gap-[1px] w-fit">
-  <div class="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
-  <div class="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
+            <div className="grid grid-cols-2 gap-[1px] w-fit">
+  <div className="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
+  <div className="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
 
-  <div class="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
-  <div class="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
+  <div className="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
+  <div className="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
 
-  <div class="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
-  <div class="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
+  <div className="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
+  <div className="w-[6px] h-[6px] bg-[#4A4E54] rounded-[.1px]"></div>
 </div>
 
            

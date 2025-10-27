@@ -13,10 +13,10 @@ export default function Tabs() {
 
   return (
     <>
-      <section className="h-full  relative  min-h-0 min-w-0 w-auto rounded-xl bg-[#363C43] shadow-[5.67px_5.67px_3.7px_0px_rgba(0,0,0,0.4)]  p-3 md:p-4 mx-[35px] my-0 flex  flex-col justify-center">
+      <section className="h-full  relative  min-h-0 min-w-0 w-auto rounded-xl bg-[#363C43] shadow-[5.67px_5.67px_3.7px_0px_rgba(0,0,0,0.4)]  p-3 md:p-3 lg:p-4 mx-4 md:mx-8 lg:mx-[35px] my-0 flex  flex-col justify-center">
         <SideBar />
 
-        <div className="relative flex rounded-[12px] bg-[#171717]  top-[-6px] p-[4px] h-[64px] gap-2 mx-[14px] overflow-visible">
+        <div className="relative flex rounded-[12px] bg-[#171717]  top-[-6px] p-[4px] h-[64px] gap-2 mx-3 md:mx-6 lg:mx-[14px] overflow-visible">
           <span
             aria-hidden
             className="absolute top-[4px] left-[4px] bottom-[4px] rounded-[10px] bg-[#28292F]  shadow-[8.49px_8.87px_50.47px_20.43px_#0A0A0A,-2.43px_-10.1px_40.1px_5.1px_#485B71] transition-transform duration-600 will-change-transform"
@@ -44,7 +44,7 @@ export default function Tabs() {
         </div>
 
         <div
-          className="mt-1 rounded-xl p-4 text-sm leading-6 text-slate-300 max-h-48 overflow-y-auto
+          className="mt-1 rounded-xl p-3 md:p-3 lg:p-4 text-sm leading-6 text-slate-300 max-h-48 overflow-y-auto
 [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar]:max-h-1
 [&::-webkit-scrollbar-track]:rounded-full
 [&::-webkit-scrollbar-track]:bg-transparent
